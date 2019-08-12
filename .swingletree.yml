@@ -1,6 +1,6 @@
 notify:
   test: true
-plugins:
+plugin:
   twistlock:
     thresholdCvss: 9
     thresholdCompliance: medium
