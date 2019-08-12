@@ -2,6 +2,6 @@ notify:
   test: true
 plugins:
   twistlock:
-    thresholdCvss: 0
+    thresholdCvss: 9
     exceptions:
       CVE-2019-9169: this is an example exception note
