@@ -3,5 +3,7 @@ notify:
 plugins:
   twistlock:
     thresholdCvss: 9
-    exceptions:
+    thresholdCompliance: medium
+    whitelist:
       CVE-2019-9169: this is an example exception note
+      CVE-2019-3861: another whitelisting test
